@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Just a Test</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link href="animate.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="AnimateInViewPort.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+$(document).ready(function(){
+    $('.targetClass0').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+        $(this).removeClass('targetClass0');
+            $(this).addClass('animated bounceInLeft');
+      } else {
+        // element has gone out of viewport
+         $(this).addClass('targetClass0');
+           $(this).removeClass('animated bounceInLeft');
+      }
+    });
+});
+});  
+
+</script>
+<style>
+body {width:33%;}
+h2 {color:red;}
+</style>
+</head>
+
+<body>
+<h1>Scroll Down to See CSS Animation that Fires When in Viewport</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+ <h2 class="targetClass0">Hey I Am Animated</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<h2 class="targetClass0">I am animated</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+  mollit anim id est laborum.</p>
+</body>
+</html>
